@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.option-btn {
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
